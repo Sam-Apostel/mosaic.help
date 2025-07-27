@@ -5,7 +5,11 @@
 - [x] add cms (payloadcms)
 - [x] add user login
 - [ ] add file storage (uploadthing.gg)
-- [ ] track progress
+
+## Core features
+- [ ] upload image
+- [ ] set grid size
+- [ ] click on cell to mark as completed
 
 ## mvp Feedback
 - [ ] zoom in 
