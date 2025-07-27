@@ -10,10 +10,16 @@
 		"add-component": "npx shadcn@latest add"
 	},
 	"dependencies": {
+		"@payloadcms/db-postgres": "^3.49.0",
+		"@payloadcms/next": "^3.49.0",
+		"@payloadcms/payload-cloud": "^3.49.0",
+		"@payloadcms/richtext-lexical": "^3.49.0",
 		"class-variance-authority": "^0.7.1",
 		"clsx": "^2.1.1",
+		"graphql": "^16.11.0",
 		"lucide-react": "^0.526.0",
 		"next": "15.4.4",
+		"payload": "^3.49.0",
 		"react": "19.1.0",
 		"react-dom": "19.1.0",
 		"tailwind-merge": "^3.3.1"
