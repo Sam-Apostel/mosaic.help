@@ -281,6 +281,9 @@ function WithImage({ image }: { image: string }) {
 						{completionPercentage > 0 ? (
 							<>
 								<div className="space-y-2">
+									<Label>
+										Detail Level: {cols}×{rows}
+									</Label>
 									<Progress value={completionPercentage} className="w-full" />
 									<p className="text-sm text-gray-600">
 										{completedSquares.size} of {totalSquares} squares completed
@@ -308,8 +311,8 @@ function WithImage({ image }: { image: string }) {
 								<Slider
 									value={gridSize}
 									onValueChange={setGridSize}
-									min={50}
-									max={400}
+									min={20}
+									max={100}
 									step={1}
 									className="w-full"
 								/>
