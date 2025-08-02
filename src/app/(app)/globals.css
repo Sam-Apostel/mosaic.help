@@ -1,3 +1,4 @@
+@layer properties, theme, base, clerk, componencts, utilities;
 @import "tailwindcss";
 @import "tw-animate-css";
 @plugin '@tailwindcss/typography';
@@ -58,7 +59,7 @@
 	--secondary-foreground: oklch(0.205 0 0);
 	--muted: oklch(0.97 0 0);
 	--muted-foreground: oklch(0.556 0 0);
-	--accent: oklch(0.97 0 0);
+	--accent: oklch(0.868 0.047 289.433);
 	--accent-foreground: oklch(0.205 0 0);
 	--destructive: oklch(0.577 0.245 27.325);
 	--border: oklch(0.922 0 0);
