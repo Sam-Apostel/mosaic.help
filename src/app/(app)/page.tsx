@@ -308,8 +308,8 @@ function WithImage({ image }: { image: string }) {
 								<Slider
 									value={gridSize}
 									onValueChange={setGridSize}
-									min={10}
-									max={50}
+									min={50}
+									max={400}
 									step={1}
 									className="w-full"
 								/>
